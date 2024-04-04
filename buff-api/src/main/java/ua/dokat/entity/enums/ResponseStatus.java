@@ -1,4 +1,4 @@
-package ua.dokat.service.entity.enums;
+package ua.dokat.entity.enums;
 
 public enum ResponseStatus {
     OK,

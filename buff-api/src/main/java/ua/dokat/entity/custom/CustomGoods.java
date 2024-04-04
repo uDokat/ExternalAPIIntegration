@@ -1,8 +1,8 @@
-package ua.dokat.service.entity.custom;
+package ua.dokat.entity.custom;
 
 import lombok.Builder;
 import lombok.Getter;
-import ua.dokat.service.entity.enums.ResponseStatus;
+import ua.dokat.entity.enums.ResponseStatus;
 
 @Builder
 @Getter
@@ -19,5 +19,6 @@ public class CustomGoods {
         private int appid;
         private String name;
         private String internal_name;
+        private final String url;
     }
 }
